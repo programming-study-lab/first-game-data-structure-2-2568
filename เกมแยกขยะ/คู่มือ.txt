@@ -1,0 +1,23 @@
+1. library 
+    1) PyGame
+    2) Pyinstall
+
+คำสั่ง virtual environment ของ Python
+    # สร้างโฟลเดอร์ venv
+    py -m venv venv
+
+    # เข้าใช้งาน virtual environment ของ Python
+    venv/bin/activate 
+        หรือ 
+    source venv/bin/activate
+
+คำสั่ง PyGame
+    # ติดตั้ง
+    pip install pygame
+
+คำสั่ง Pyinstall
+    # ติดตั้ง
+    pip install pyinstaller
+
+    # สร้าง .exe file (ต้องสั่งใน PowerShell) --> กด shift + คลิกขวา(ในโฟลเดอร์) --> คลิกที่ Open PowerShell window here
+    pyinstaller --onefile --noconsole --icon=favicon.ico main.py 
